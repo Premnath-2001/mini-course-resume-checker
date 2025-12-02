@@ -1,57 +1,72 @@
-# Mini Course Listing + Resume Score Checker
+# Mini Course & Resume Score Checker
 
-This is a small task built using HTML, CSS and JavaScript.  
-It contains two parts:
-
----
-
-## PART 1: Course Listing (LMS Basic Logic)
-
-Features:
-- Shows a list of 3 dummy courses
-- Each course displays:
-  - Course name
-  - Duration
-  - "View Details" button
-- Clicking "View Details" shows hidden details in a simple box
-
-Skills used:
-- UI structure
-- Event handling
-- Data rendering
+This is a simple web application that shows a list of mini-courses and also provides a basic resume score checker.  
+The project is fully frontend-based and hosted using **GitHub Pages**.
 
 ---
 
-## PART 2: Resume Score Checker (Simple Logic, No AI)
-
-Features:
-- Textarea to paste resume
-- Input field for job title
-- "Check Score" button
-- Score is calculated using simple rules:
-  - If resume contains job title → +50 points
-  - If resume contains keywords: "experience", "skills", "project" → +10 each
-  - Max score: 100
-
-Skills used:
-- Basic algorithm
-- Text processing
-- User input handling
+## 🚀 Live Demo
+👉 **https://premnath-2001.github.io/mini-course-resume-checker/**
 
 ---
 
-## How to Run the Project
-1. Open the folder in VS Code.
-2. Open `index.html`.
-3. Right-click → "Open with Live Server"  
-   (or double-click the file to open in browser).
+## 📚 Features
+
+### ✅ **Course Listing**
+- Shows 3 mini courses:
+  - Java Basics
+  - Web Development
+  - SQL Mastery
+- Each card contains:
+  - Course name  
+  - Duration  
+  - Toggle button to show more details  
+
+### 📝 **Resume Score Checker**
+- Paste your resume text  
+- Enter your job role  
+- Get a score out of 100 based on keyword matching  
+- Simple, beginner-friendly logic  
 
 ---
 
-## File Structure
+## 🛠️ Technologies Used
+- **HTML**
+- **CSS**
+- **JavaScript**
+- Hosted on **GitHub Pages**
+
+---
+
+## 📂 Project Structure
+
+/mini-course-resume-checker
+│
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
 
 
 ---
 
-## Submitted by:
-Premnath A
+## 📦 How to Use Locally
+
+Clone the repository:
+
+git clone https://github.com/Premnath-2001/mini-course-resume-checker.git
+
+
+Open the project folder and run:
+
+
+That’s it — no dependencies needed!
+
+---
+
+## 👨‍💻 Author
+**Premnath A**
+
+GitHub: https://github.com/Premnath-2001  
+Email: premnathanadhan21@gmail.com
+
