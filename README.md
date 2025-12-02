@@ -64,6 +64,11 @@ That’s it — no dependencies needed!
 
 ---
 
+<img width="1896" height="888" alt="image" src="https://github.com/user-attachments/assets/50a6572f-d2b3-4589-b93e-11d67ee39832" />
+<img width="1899" height="924" alt="image" src="https://github.com/user-attachments/assets/e1fe527e-5a99-48dd-bb3f-544c9ba7461e" />
+
+
+
 ## 👨‍💻 Author
 **Premnath A**
 
