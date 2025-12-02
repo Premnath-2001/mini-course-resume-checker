@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Course Listing + Resume Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Course Listing</h1>
+
+    <div id="course-list">
+        <!-- Courses will be loaded here by JavaScript -->
+    </div>
+
+    <!-- Hidden details box -->
+    <div id="details-box" class="hidden">
+        <h2 id="detail-title"></h2>
+        <p id="detail-desc"></p>
+        <button onclick="closeDetails()">Close</button>
+    </div>
+
+    <h1>Resume Score Checker</h1>
+
+    <div id="resume-checker">
+        <textarea id="resume-text" placeholder="Paste your resume here" rows="6" cols="50"></textarea>
+        <br><br>
+
+        <input id="job-title" type="text" placeholder="Enter Job Title">
+        <br><br>
+
+        <button onclick="checkScore()">Check Score</button>
+
+        <h2 id="score-output"></h2>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
